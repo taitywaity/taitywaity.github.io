@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--navigation:-->
+    <style>
+        /* navigation bar */
+        ul {
+            list-style-type: none;
+            margin-top: auto;
+            margin-bottom: auto;
+            padding: 0px 0px 0px 0px;
+            width: 200px;
+            height: 100%; /* Full height */
+            position: fixed; /* Make it stick, even on scroll */
+            overflow: auto; /* Enable scrolling if the sidenav has too much content */
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        /* Change the link color on hover */
+        li a:hover {
+            background-color: #000000;
+            color: white;
+
+        }    
+        .active {
+        background-color: #5a5a5a;
+        color: white;
+        }
+        .nav_space {
+            margin-bottom: 90px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ABOUT PAGE</h1>
+    <nav class="sticky">
+        <ul>
+            <li class="title">Elliot Tait:</li>
+            <li class="title">PORTFOLIO</li>
+            <li class="nav_space"></li>
+            <li><a href="index.html">Chronology</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="architecture.html">Architecture</a></li>
+            <li><a href="tags.html">tags</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <p>create a seperate css file to hold all your styles? i think this is how it works</p>
+</body>
+</html>
